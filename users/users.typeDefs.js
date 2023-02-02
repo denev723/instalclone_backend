@@ -7,7 +7,7 @@ export default gql`
         lastName: String
         username: String!
         email: String!
-        creatdeAt: String!
+        createdAt: String!
         updatedAt: String!
     }
     type Mutation {
