@@ -3,8 +3,8 @@
 인스타그램 클론 백앤드
 
 ## User
-- [ ] Create Account
-- [ ] See Profile
+- [x] Create Account
+- [x] See Profile
 - [ ] Login
 - [ ] Edit Profile
 - [ ] Follow User
