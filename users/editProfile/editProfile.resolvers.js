@@ -13,10 +13,12 @@ export default {
                     username,
                     email,
                     password: newPassword,
-                    bio
+                    bio,
+                    avatar
                 },
                 { loggedInUser }
             ) => {
+                console.log(avatar);
                 let uglyPassword = null;
                 if (uglyPassword) {
                     uglyPassword = await bcrypt.hash(newPassword);
