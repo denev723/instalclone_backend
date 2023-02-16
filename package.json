@@ -2,11 +2,6 @@
     "name": "instaclone",
     "version": "1.0.0",
     "description": "",
-    "scripts": {
-        "dev": "nodemon --exec babel-node server",
-        "migrate": "npx prisma migrate dev init",
-        "studio": "npx prisma studio"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/denev723/instalclone_backend.git"
@@ -17,23 +12,5 @@
     "bugs": {
         "url": "https://github.com/denev723/instalclone_backend/issues"
     },
-    "homepage": "https://github.com/denev723/instalclone_backend#readme",
-    "dependencies": {
-        "@graphql-tools/load-files": "^6.6.0",
-        "@graphql-tools/merge": "^8.3.0",
-        "@graphql-tools/schema": "^8.5.0",
-        "@prisma/client": "^4.9.0",
-        "apollo-server": "^2.19.1",
-        "bcrypt": "^5.1.0",
-        "dotenv": "^16.0.3",
-        "graphql": "^15.4.0",
-        "jsonwebtoken": "^9.0.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.20.12",
-        "@babel/node": "^7.20.7",
-        "@babel/preset-env": "^7.20.2",
-        "nodemon": "^2.0.20",
-        "prisma": "^4.9.0"
-    }
+    "homepage": "https://github.com/denev723/instalclone_backend#readme"
 }
